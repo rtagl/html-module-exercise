@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+.acronym {
+  padding-left: 10px;
+}
+
+nav {
+  
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px 0;
+  margin: 0;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  height: 30px;
+  font-size: 0.9em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block;
+}
+
+.clearfix {
+  clear: both;
+  overflow: auto;
+}
+
+.heart {
+  padding-left: 20px;
+}
+
+.header-section {
+  background-color: rgb(32,101,136);
+  color: white;
+  margin-top: 20px;
+}
+
+.npm-logo {
+  width: 40px;
+  heigh: 30px;
+  margin-left: 20px;
+}
+.button-signup {
+  background-color: rgb(240, 146, 51);
+  border-radius: 8px;
+  border: none;
+}
+
+.section1-search input{
+  background-color: rgb(31,82,111);
+  width: 75%;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 2px
+}
+
+.section1-description {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.section1-description img {
+  height: 300px;
+  width: 70%;
+  float: right;
+  margin-bottom: 50px;
+}
+
+.collaboration-section {
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+.collaboration-div {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.collaboration-div img {
+  height: 150px;
+  margin-top: 40px;
+  float: left;
+}
+
+.collab-text {
+  padding-top: 40px;
+}
+
+.collaboration-div button {
+  background-color: rgb(203, 56, 55);
+  border-radius: 8px;
+  border: none;
+}
+
+.npm-section {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 260px;
+  margin-top: 20px;
+}
+
+.npm-section div {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+
+.npm-section button {
+  background-color: rgb(49, 68, 88);
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.links-red {
+  color: rgb(208, 74, 73);
+}
+
+.make-something {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.logos {
+  float: left;
+  width: 30%;
+}
+
+.make-something p {
+  font-size: 0.8em;
+}
+
+.links-white {
+  text-decoration: none;
+  color: white;
+}
